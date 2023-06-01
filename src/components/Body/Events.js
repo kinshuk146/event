@@ -8,7 +8,7 @@ import Card from '../Body/Card';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 
-const IITdelhi = {title:"IIT Delhi  Hackathon" ,date:"Upcoming", image:"https://international.iitd.ac.in/wp-content/uploads/2022/02/image_70399894-a2dc-4358-8667-700ccec5698f20220208_150024.jpg" ,description:"Frienducation will soon visit IIT delhi.",style:{opacity:'0.5'},
+const IITdelhi = {title:"IIT Delhi  Hackathon" ,date:"Upcoming", image:"https://international.iitd.ac.in/wp-content/uploads/2022/02/image_70399894-a2dc-4358-8667-700ccec5698f20220208_150024.jpg" ,description:"Frienducation will soon visit IIT delhi.",
 itemData:[
   {
     img: '',
@@ -122,7 +122,7 @@ function Events() {
 
   
   return (
-    <div>
+    <div className="Events">
       <Container style={{marginBottom:'2rem'}}>
       <div className="Head" style={{marginTop:'2rem', marginBottom:'1rem'}}>
       <Button variant="contained" style={{backgroundColor:'rgb(75, 89, 247)'}}>All Events</Button>

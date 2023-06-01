@@ -1,7 +1,15 @@
+.Events{
+    background-color: #f6f7f6;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 4rem;
+}
+
 .Head{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+
 }
 
 .Heading{
